@@ -1,0 +1,407 @@
+﻿@charset "utf-8";
+
+.background {
+position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: block;
+    background-image: url(../assets/background2.jpg);
+    BACKGROUND-REPEAT: NO-REPEAT;
+    BACKGROUND-SIZE: cover;
+    BACKGROUND-POSITION: CENTER CENTER;
+}
+
+body{
+    background-color: black;
+ font-size: 100%;
+ font-family: Segoe UI Semibold;
+}
+#video-elem{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+}
+.leftmenu {
+    position: absolute;
+    width: 100px;
+    background: rgba(192,192,192,.75);
+    left: 0%;
+    top: 45%;
+    border-radius: 20px;
+}
+.leftmenu li{
+    list-style:none;
+}
+
+.leftmenu li a{
+    line-height:60px;
+    width:100%;
+}
+.leftmenu li a:hover{
+    background-color: rgba(173,216,230,1);
+}
+.rightmenu {
+    position: absolute;
+    width: 100px;
+    background: rgba(192,192,192,.75);
+    right:0%;
+    top:40%;
+    border-radius: 20px;
+}
+.rightmenu li{
+    list-style:none;
+}
+
+.rightmenu li a{
+    line-height:60px;
+    width:100%;
+}
+.rightmenu li a:hover{
+    background-color: rgba(173,216,230,1);
+}
+
+.metropol{
+	position:absolute;
+	width:200px;
+	background-color: rgba(192,192,192,.75);
+	right:10%;
+	top:5%;
+	Border-radius:20px;
+        border-top: 10px solid rgba(192,192,192,1);
+        border-bottom: 10px solid rgba(192,192,192,1);
+        border-right: 10px solid rgba(192,192,192,1);
+	border-left: 10px solid rgba(192,192,192,1);
+}
+
+.metropol li{
+	list-style:none;
+}
+
+.metropol li a{
+	line-height:20px;
+	width:100%;
+}
+
+#hurricanes a:hover{
+	background-color: rgba(226,24,54,1);
+}
+#blue_jackets a:hover{
+	background-color: rgba(0,38,84,1);
+}
+#devils a:hover{
+	background-color: rgba(206,17,38,1);
+}
+#islanders a:hover{
+	background-color: rgba(0,82,155,1);
+}
+#rangers a:hover{
+	background-color:rgba(0,56,168,1);
+}
+#flyers a:hover{
+	background-color:rgba(247,73,2,1);
+}
+#penguins a:hover{
+	background-color:rgba(252,181,20,1);
+}
+#capitals a:hover{
+	background-color:rgba(4,30,65,1);
+}
+
+
+
+
+.atlantic{
+	position:absolute;
+	width:200px;
+	background-color: rgba(192,192,192,.75);
+	right:10%;
+	bottom: 5%;
+	Border-radius:20px;
+Border-radius:20px;
+        border-top: 10px solid rgba(192,192,192,1);
+        border-bottom: 10px solid rgba(192,192,192,1);
+        border-right: 10px solid rgba(192,192,192,1);
+	border-left: 10px solid rgba(192,192,192,1);
+}
+
+.atlantic li{
+	list-style:none;
+}
+
+.atlantic li a{
+	line-height:20px;
+	width:100%;
+}
+
+#bruins a:hover{
+	background-color:rgba(252,181,20,1);
+}
+#sabres a:hover{
+	background-color:rgba(0,38,84,1);
+}
+#red_wings a:hover{
+	background-color:rgba(206,17,38,1);
+}
+#panthers a:hover{
+	background-color:rgba(200,16,46,1);
+}
+#canadiens a:hover{
+	background-color:rgba(175,30,45,1);
+}
+#senators a:hover{
+	background-color:rgba(227,24,55,1);
+}
+#lightning a:hover{
+	background-color:rgba(0,40,104,1);
+}
+#maple_leafs a:hover{
+	background-color:rgba(0,62,126,1);
+}
+
+
+.central{
+	position:absolute;
+	width:200px;
+	background-color: rgba(192,192,192,.75);
+	left:10%;
+	top: 5%;
+	Border-radius:20px;
+Border-radius:20px;
+        border-top: 10px solid rgba(192,192,192,1);
+        border-bottom: 10px solid rgba(192,192,192,1);
+        border-right: 10px solid rgba(192,192,192,1);
+	border-left: 10px solid rgba(192,192,192,1);
+}
+
+.central li{
+	list-style:none;
+}
+
+.central li a{
+	line-height:20px;
+	width:100%;
+}
+#blackhawks a:hover{
+	background-color: rgba(207,10,44,1);
+}
+#avalanche a:hover{
+	background-color: rgba(111,38,61,1);
+}
+#stars a:hover{
+	background-color: rgba(0,104,71,1);
+}
+#wild a:hover{
+	background-color: rgba(0,79,48,1);
+}
+#predators a:hover{
+	background-color: rgba(255,184,28,1);
+}
+#blues a:hover{
+	background-color: rgba(0,47,135,1);
+}
+#jets a:hover{
+	background-color: rgba(4,30,65,1);
+}
+
+
+
+
+
+.pacific{
+	position:absolute;
+	width:200px;
+	background-color: rgba(192,192,192,.75);
+	left:10%;
+	bottom: 5%;
+	Border-radius:20px;
+Border-radius:20px;
+        border-top: 10px solid rgba(192,192,192,1);
+        border-bottom: 10px solid rgba(192,192,192,1);
+        border-right: 10px solid rgba(192,192,192,1);
+	border-left: 10px solid rgba(192,192,192,1);
+}
+
+.pacific li{
+	list-style:none;
+}
+
+.pacific li a{
+	line-height:20px;
+	width:100%;
+}
+#ducks a:hover{
+	background-color: rgba(249,86,2,1);
+}
+#coyotes a:hover{
+	background-color: rgba(140,38,51,1);
+}
+#flames a:hover{
+	background-color: rgba(183,43,53,1);
+}
+#oilers a:hover{
+	background-color: rgba(4,30,65,1);
+}
+#kings a:hover{
+	background-color: rgba(17,17,17,1);
+}
+#sharks a:hover{
+	background-color: rgba(0,109,117,1);
+}
+#canucks a:hover{
+	background-color: rgba(0,31,92,1);
+}
+#knights a:hover{
+	background-color: rgba(180,151,90,1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo{
+    position:absolute;
+    top: 2%;
+    left: 5%;
+}
+.logo_home{
+    position:relative;
+
+    left: 5%;
+    top: 5%;
+}
+
+#jersey1{
+position:fixed;
+    height:10%;
+    width:10%;
+    top:5%;
+    left:15%;
+	display:none;
+}
+#jersey2{
+position:fixed;
+    height:10%;
+    width:10%;
+    top:10%;
+    left:20%;
+	display:none;
+}
+#jersey3{
+position:fixed;
+    height:10%;
+    width:10%;
+    top:10%;
+    left:10%;
+	display:none;
+}
+#jersey4{
+position:fixed;
+    height:10%;
+    width:10%;
+    top:10%;
+    left:10%;
+	display:none;
+}
+
+
+#logo1{
+position:fixed;
+    height:10%;
+    width:10%;
+    top:45%;
+    left:35%;
+    display:none;
+}
+#logo2{
+position:fixed;
+    height:10%;
+    width:10%;
+    top:45%;
+    left:35%;
+    display:none;
+}
+#logo3{
+position:fixed;
+    height:10%;
+    width:10%;
+    top:45%;
+    left:35%;
+    display:none;
+}
+#logo4{
+position:fixed;
+    height:10%;
+    width:10%;
+    top:45%;
+    left:35%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.map{
+position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: block;
+    background-image: url(../assets/map.png);
+    BACKGROUND-REPEAT: NO-REPEAT;
+    BACKGROUND-SIZE: contain;
+    BACKGROUND-POSITION: CENTER CENTER;
+}
+
+.footer { 
+    display: block;
+    background-color:green;
+    bottom:0%
+}
+
+.dropdown_box {
+	position: relative;
+	width: 20%;
+	height: 30%;
+	background: rgba(192,192,192,10);
+	left: 65%;
+	top: 50%;
+	list-style:none;
+    text-align:center;
+}
+	
+
+
+
+
+
+
+

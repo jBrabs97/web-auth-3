@@ -395,10 +395,15 @@ position: fixed;
 	left: 65%;
 	top: 50%;
 	list-style:none;
-    text-align:center;
+	text-align:center;
 }
 	
 
+.videobox{
+	position: absolute;
+	left: 35%;
+	bottom: 20%;
+}
 
 
 

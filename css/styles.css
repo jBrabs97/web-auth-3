@@ -298,7 +298,7 @@ position:fixed;
     height:10%;
     width:10%;
     top:10%;
-    left:20%;
+    left:15%;
 	display:none;
 }
 #jersey3{
@@ -306,7 +306,7 @@ position:fixed;
     height:10%;
     width:10%;
     top:10%;
-    left:10%;
+    left:15%;
 	display:none;
 }
 #jersey4{
@@ -314,7 +314,7 @@ position:fixed;
     height:10%;
     width:10%;
     top:10%;
-    left:10%;
+    left:15%;
 	display:none;
 }
 
@@ -325,7 +325,7 @@ position:fixed;
     width:10%;
     top:45%;
     left:35%;
-    display:none;
+    
 }
 #logo2{
 position:fixed;
@@ -341,16 +341,16 @@ position:fixed;
     width:10%;
     top:45%;
     left:35%;
-    
+	display:none;
+    }
 #logo4{
 position:fixed;
     height:10%;
     width:10%;
     top:45%;
     left:35%;
-	display:none;
+display:none;
 }
-
 
 
 
@@ -384,23 +384,24 @@ position: fixed;
 .footer { 
     display: block;
     background-color:green;
-    bottom:0%
+    bottom:0%;
 }
 
 .dropdown_box {
-	position: relative;
+	position: absolute;
 	width: 20%;
 	height: 30%;
 	background: rgba(192,192,192,10);
-	left: 65%;
-	top: 50%;
+	left: 60%;
+	top: 30%;
 	list-style:none;
 	text-align:center;
 }
-	
+
 .dropdown_box li {
 	list-style:none;
 }	
+
 .videobox{
 	position: absolute;
 	left: 35%;
@@ -410,21 +411,84 @@ position: fixed;
 
 
 
+.winner1{
+	float:left;
+	position:absolute;
+	left:20%;
+	top:25%;
+	background-color:rgba(192,192,192,.75);
+	text-allign:centre;
+}
+
+.winner2{
+	float:left;
+	position:absolute;
+	left:20%;
+	top:40%;
+	background-color:rgba(192,192,192,.75);
+	text-allign:centre;
+}
+.winner3{
+	float:left;
+	position:absolute;
+	left:20%;
+	top:55%;
+	background-color:rgba(192,192,192,.75);
+	text-allign:centre;
+}
+.winner4{
+	float:left;
+	position:absolute;
+	right:20%;
+	top:25%;
+	background-color:rgba(192,192,192,.75);
+	text-allign:centre;
+}
+
+.winner5{
+	float:left;
+	position:absolute;
+	right:20%;
+	top:40%;
+	background-color:rgba(192,192,192,.75);
+	text-allign:centre;
+}
+.winner6{
+	float:left;
+	position:absolute;
+	right:20%;
+	top:55%;
+	background-color:rgba(192,192,192,.75);
+	text-allign:centre;
+}
+
+
+#stanley_cup{
+	position:absolute;
+	left:40%;
+	top:20%;
+}
 
 
 
 
 
 
+.mediaqueries{
+@media only screen and (min-width: 992px)
+{
+position:relative;
+float:left;
+}
 
+@media only screen and (max-width: 991px)
+{
+	position:absolute;
+	display:block;
+	
+}
 
-
-
-
-
-
-
-
+}
 
 
 
